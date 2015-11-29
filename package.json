@@ -1,8 +1,8 @@
 {
-  "name": "assemble-test",
+  "name": "Project Boilerplate",
   "version": "1.0.0",
-  "description": "A test of assemble and grunt",
-  "author": "Jon Winton",
+  "description": "A boilerplate with assemble and grunt",
+  "author": "Jon Eddy",
   "devDependencies": {
     "assemble": "^0.4.42",
     "autoprefixer-core": "^5.2.1",
@@ -12,6 +12,7 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-connect": "^0.11.2",
     "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-requirejs": "^0.4.4",
     "grunt-contrib-uglify": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
@@ -19,6 +20,7 @@
     "grunt-postcss": "^0.6.0",
     "grunt-prettify": "^0.4.0",
     "grunt-sass": "^1.0.0",
+    "grunt-todo": "^0.5.0",
     "jit-grunt": "^0.9.1"
   }
 }

@@ -9,13 +9,15 @@
 
 // Medium Styles
 @media screen and (min-width: $BREAKPOINT_SM) {
-    @import "_medium";    
+  @import "_medium";
+}
+
+// Large Styles
+@media screen and (min-width: $BREAKPOINT_MD) {
+  @import "_large";
 }
 
 // Large Styles
 @media screen and (min-width: $BREAKPOINT_LG) {
-    @import "_large";
+  @import "_xlarge";
 }
-
-
-
