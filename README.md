@@ -1,8 +1,15 @@
-# Basic Boilerplate
+# Constellation
 
-> This is a simple boilerplate using Grunt & Assemble
+> Development environment for Constellation.js
 
-This boilerplate enforces very few conventions and can be pieces can be swapped out as needed. Here's a list of what comes by default:
+
+## What is Constellation.js?
+
+Uses HTML5 Canvas to animate dots ("stars") as they fall like snowflakes and connect ones in close proximity to each other. the "stars" also grow if they are near the cursor.
+
+
+## A few things about the structure
+
 
 - HTML
 ⋅⋅- Assemble/Handlebars for templating
@@ -27,15 +34,6 @@ This boilerplate enforces very few conventions and can be pieces can be swapped 
 7. Run `grunt connect`
 8. Navigate to `localhost:4000` in browser to view output
 9. Optionally run `grunt watch` to watch for changes
-
-
-## Production Builds
-Want to build for production? Run `grunt --prod` and the following will occur:
-- CSS will be minified
-- JS will run through the r.js optimizer and be minified into one `main.js` file.
-- `foot.hbs` markup will output adjust ouput for production.
-
-Need to check for production in your Handlebars templates? Simply use an `{{#if production}}` block to output content for production.
 
 
 ## Errors or want changes?
