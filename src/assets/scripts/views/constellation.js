@@ -300,7 +300,7 @@ export default class Constellation {
 		for (let dot of this.dots) {
 			// use pythagorean theorem to calculate the distance between the 2 points
 			let distance = Math.sqrt(Math.pow(Math.abs(this.mouseX - dot.x), 2) + Math.pow(Math.abs(this.mouseY - dot.y), 2));
-			dot.size = Math.max(Math.min(10 - distance / 10, 10 /*largest size*/), this.dotSize);
+			dot.size = Math.max(Math.min(20 - distance / 20, 30 /*largest size*/), this.dotSize);
 		}
   	return this;
   }
