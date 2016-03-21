@@ -10,8 +10,8 @@ export default class Constellation {
 		this.element.height = 0;
 		this.dotSize = 0;
 		this.starColor = '';
-		this.mouseX = 0;
-		this.mouseY = 0;
+		this.mouseX = -999;
+		this.mouseY = -999;
 
 		return this;
 	}
@@ -300,7 +300,7 @@ export default class Constellation {
 		for (let dot of this.dots) {
 			// use pythagorean theorem to calculate the distance between the 2 points
 			let distance = Math.sqrt(Math.pow(Math.abs(this.mouseX - dot.x), 2) + Math.pow(Math.abs(this.mouseY - dot.y), 2));
-			dot.size = Math.max(Math.min(10 - distance / 10, 10), this.dotSize);
+			dot.size = Math.max(Math.min(10 - distance / 10, 10 /*largest size*/), this.dotSize);
 		}
   	return this;
   }
